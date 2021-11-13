@@ -1,0 +1,35 @@
+{
+    "Header": {
+        "itens": [
+            "Home",
+            "Sobre mim",
+            "Projetos",
+            "Contato"
+        ],
+        "logo": ""
+    },
+    "Parallax1": "images/programming evolution.jpg",
+    "Video": "video/Technology Background Video Loop For Website(1080P_HD).mp4",
+    "Banner": {
+      "descricao": "Descricao. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "foto": "images/img_20210613_130058-934"
+    },
+    "Projetos": [
+      {
+        "titulo": "Card Colection",
+        "imagem": "Card Colection img",
+        "descricao": "img/portfolio/01-small.jpg"
+      },
+      {
+        "titulo": "Netflix Clone",
+        "imagem": "Netflix Clone img",
+        "descricao": "img/portfolio/01-small.jpg"
+      },
+      {
+        "titulo": "Conversaor de Moedas",
+        "imagem": "Conversaor de Moedas img",
+        "descricao": "img/portfolio/01-small.jpg"
+      }
+    ]
+  }
+  

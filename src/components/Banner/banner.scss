@@ -1,0 +1,18 @@
+
+#sobre-mim {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    // margin-top: 10%;
+    border: 2px solid red;
+    
+    article {
+
+        background-color: rgba(14, 13, 13, 0.644);
+        border: 2px solid red;
+        width: 400px;
+        display: flex;
+        justify-content: center;
+    }
+}
