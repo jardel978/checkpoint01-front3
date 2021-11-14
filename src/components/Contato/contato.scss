@@ -1,83 +1,104 @@
 #contato {
-    h1,
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding-bottom: 70px;
+    margin-bottom: 150px;
+    border: 2px red solid;
+
+form {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 6rem;
+    max-width: 32rem;
+    font-size: 1.125rem;
+    background-color: #111;
+    padding: 20px 50px;
+    border-radius: 15px;
+
+    input, textarea {
+        width: 320px;
+        font: inherit;
+        padding: 0.8rem;
+        margin-bottom: 1rem;
+        border: 1px solid transparent;
+        border-radius: 8px;
+        transition: border-color, box-shadow 0.2s;
+        background-color: rgba(255, 255, 255, 0.822);
+    }
+}
+
 h2 {
-  font-size: 3rem;
-  color: #fff;
-  margin-bottom: 2rem;
-  text-align: center;
-  line-height: 1.2;
+    width: 100%;
+    border: 2px red solid;
+    align-self: start;
+    text-align: center;
+    padding: 7px;
 }
 
-h1::before {
-  content: "📧";
-  display: block;
+textarea {
+    min-height: 13rem;
+    resize: vertical;
 }
 
-h2::before {
-  content: "🐅";
-  display: block;
+input:hover,
+input:focus,
+textarea:hover,
+textarea:focus {
+    outline: none;
+    border-color: #09d;
+    box-shadow: 0 1 0 3px #7ea4b6;
 }
 
-.form {
-  width: 100%;
-  max-width: 32rem;
-  font-size: 1.125rem;
+button {
+    width: 100px;
+    display: block;
+    padding: 1rem;
+    background: #0072c4;
+    color: #fff;
+    font: inherit;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s;
 }
 
-.form label,
-.form input,
-.form textarea,
-.form button {
-  display: block;
-  width: 100%;
+button:hover,
+button:focus {
+    outline: none;
+    background: #09d;
+}
 }
 
-.form label {
-  color: #fff;
-  line-height: 1;
-  margin-bottom: 0.5rem;
+
+@media only screen and (max-width: 768px) {
+    #contato {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-flow: column wrap;
+        border: 2px red solid;
+        margin-top: 50px;
+        
+
+        h2 {
+            border: 2px red solid;
+            text-align: center;
+        }
+
+        form {
+            margin-top: 50px;
+            align-self: center;
+            // margin-left: 0;
+        }
+    }
 }
 
-.form input,
-.form textarea {
-  font: inherit;
-  padding: 0.8rem;
-  margin-bottom: 1rem;
-  border: 1px solid transparent;
-  border-radius: 8px;
-  transition: border-color, box-shadow 0.2s;
-}
+// @media only screen (min-width: 769px) and (max-width: 1080px) {
+//     p {
 
-.form textarea {
-  min-height: 13rem;
-  resize: vertical;
-}
-
-.form input:hover,
-.form input:focus,
-.form textarea:hover,
-.form textarea:focus {
-  outline: none;
-  border-color: #09d;
-  box-shadow: 0 0 0 3px #4dc8ff;
-}
-
-.form button {
-  display: block;
-  padding: 1rem;
-  background: #0072c4;
-  color: #fff;
-  font: inherit;
-  text-transform: uppercase;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
-  transition: 0.2s;
-}
-
-.form button:hover,
-.form button:focus {
-  outline: none;
-  background: #09d;
-}
-}
+//     }
+// }

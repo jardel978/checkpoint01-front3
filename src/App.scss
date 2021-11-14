@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 
@@ -16,13 +17,30 @@ video {
     position: fixed;
     top: 15px;
     z-index: -1000;
+    filter: contrast(2);
+    opacity: 0.9;
 }
 
 main {
     width: 100vw;
-    margin-top: 300px;
+    margin-top: 87vh;
     // background-color: black;
     // height: 100vh;
     font-weight: bold;
     color: red;
+}
+
+#projetos {
+    margin-top: 10%;
+    width: 100%;
+    border: 2px solid red;
+}
+
+@media only screen and (max-width: 768px) {
+    #projetos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column wrap;
+    }
 }

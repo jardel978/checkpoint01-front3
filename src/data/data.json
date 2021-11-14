@@ -12,24 +12,54 @@
     "Video": "video/Technology Background Video Loop For Website(1080P_HD).mp4",
     "Banner": {
       "descricao": "Descricao. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "foto": "images/img_20210613_130058-934"
+      "foto": "images/IMG_20210613_130058_934.jpg"
     },
     "Projetos": [
       {
         "titulo": "Card Colection",
-        "imagem": "Card Colection img",
-        "descricao": "img/portfolio/01-small.jpg"
+        "imagem": "https://static.kbb.com.br/Uploads/ResearchTools/News/970/047b85fc-c40e-4bae-8d63-61846ff38cd5_320x240.jpg",
+        "descricao": "img/portfolio/01-small.jpg",
+        "projeto": "Git",
+        "hospedagem": "Vercel"
       },
       {
         "titulo": "Netflix Clone",
-        "imagem": "Netflix Clone img",
-        "descricao": "img/portfolio/01-small.jpg"
+        "imagem": "https://images.bisnis-cdn.com/thumb/posts/2020/09/10/1289842/netflix-2_050820.jpg?w=350&h=270",
+        "descricao": "Um clone da página inicial da Netflix, desenvolvido em React",
+        "projeto": "",
+        "hospedagem": ""
       },
       {
-        "titulo": "Conversaor de Moedas",
-        "imagem": "Conversaor de Moedas img",
-        "descricao": "img/portfolio/01-small.jpg"
+        "titulo": "Conversor de Moedas",
+        "imagem": "https://img.freepik.com/fotos-gratis/plano-de-fundo-das-principais-moedas-em-preto_78895-1954.jpg?size=350&ext=jpg",
+        "descricao": "img/portfolio/01-small.jpg",
+        "projeto": "",
+        "hospedagem": ""
       }
-    ]
+    ],
+    "Contato": {
+      "texto": "Fale comigo! É só deixar um e-mail...",
+      "imagem": "",
+      "imputs": [
+        "nome", "email", "mensagem", "enviar"
+      ],
+      "placeholder": [
+        "Jardel Oliveira", "seuemail@gmail.com", "Digite sua mensagem"
+      ]
+    },
+    "Footer": {
+      "link1": "https://www.digitalhouse.com/br/acoes/certified-tech-developer",
+      "link2": "https://www.digitalhouse.com/br/acoes/certified-tech-developer",
+      "link3": "https://www.digitalhouse.com/br/acoes/certified-tech-developer",
+      "empresa1": "Digital House",
+      "empresa2": "Mercado Livre",
+      "empresa3": "Globant",
+      "perfil1": "https://www.linkedin.com/in/jardel-silva-oliveira-b9a330213/",
+      "perfil2": "https://github.com/jardel978",
+      "email": "jardeloliver197@gmail.com",
+      "icon1": "",
+      "icon2": "",
+      "icon3": ""
+    }
   }
   
