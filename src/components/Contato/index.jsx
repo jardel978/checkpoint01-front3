@@ -23,6 +23,10 @@ export const Contato = ({data}) => {
         <div id="contato">
             <h2>{data && (data.texto)}</h2>
 
+            <div className="imagem-email">
+                <img class="img-responsive" src={data && (data.imagem)} alt="email" />
+            </div>
+
             <form
                 action="https://formsubmit.co/jardeloliveiracontact@gmail.com"
                 method="POST"

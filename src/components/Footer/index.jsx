@@ -17,7 +17,7 @@ export const Footer = ({ data }) => {
             <div className="box-footer2">
                 <a href={data && (data.perfil1)} target="_blank" rel="noreferrer"><img src={data && (data.icon1)} alt="icone" /></a>
                 <a href={data && (data.perfil2)} target="_blank" rel="noreferrer"><img src={data && (data.icon2)} alt="icone" /></a>
-                <a href={data && (data.email)} target="_blank" rel="noreferrer"><img src={data && (data.icon3)} alt="icone" /></a>
+                <a href="#contato" rel="noreferrer"><img src={data && (data.icon3)} alt="icone" /></a>
             </div>
         </footer>
     )

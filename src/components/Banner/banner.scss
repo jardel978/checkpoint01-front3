@@ -6,6 +6,7 @@
     flex-wrap: wrap;
     margin-bottom: 100px;
     border: 2px solid red;
+    padding: 17px;
     
     article {
 
@@ -14,10 +15,10 @@
         width: 400px;
         display: flex;
         justify-content: center;
+        padding: 7px;
 
         p {
             align-self: center;
-            padding: 7px;
         }
 
         img {

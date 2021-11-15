@@ -18,28 +18,31 @@
       {
         "titulo": "Card Colection",
         "imagem": "https://static.kbb.com.br/Uploads/ResearchTools/News/970/047b85fc-c40e-4bae-8d63-61846ff38cd5_320x240.jpg",
-        "descricao": "img/portfolio/01-small.jpg",
-        "projeto": "Git",
-        "hospedagem": "Vercel"
+        "imagem2": "images/card-colection-print.png",
+        "descricao": "Praticando JavaScript e pisando fundo com um bela coleção de carros. 🚗🌫",
+        "projeto": "https://github.com/jardel978/check-point01Fron02",
+        "hospedagem": "https://jardel978.github.io/check-point01Fron02/"
       },
       {
         "titulo": "Netflix Clone",
         "imagem": "https://images.bisnis-cdn.com/thumb/posts/2020/09/10/1289842/netflix-2_050820.jpg?w=350&h=270",
-        "descricao": "Um clone da página inicial da Netflix, desenvolvido em React",
-        "projeto": "",
-        "hospedagem": ""
+        "imagem2": "images/clone-netflix-react.png",
+        "descricao": "Um clone iniciante da página principal da Netflix desenvolvido em React.",
+        "projeto": "https://github.com/jardel978/Netflix_Clone",
+        "hospedagem": "https://netflix-clone-six-jade.vercel.app/"
       },
       {
         "titulo": "Conversor de Moedas",
         "imagem": "https://img.freepik.com/fotos-gratis/plano-de-fundo-das-principais-moedas-em-preto_78895-1954.jpg?size=350&ext=jpg",
-        "descricao": "img/portfolio/01-small.jpg",
-        "projeto": "",
-        "hospedagem": ""
+        "imagem2": "images/conversor.png",
+        "descricao": "Aprendendo React e preparando o conversor para os dolares que virão! 😎",
+        "projeto": "https://github.com/jardel978/mochila_jardel_silva/tree/main/bimestre03/frontend3/cursoCod3r/conversor",
+        "hospedagem": "https://mochila-jardel-silva.vercel.app/"
       }
     ],
     "Contato": {
-      "texto": "Fale comigo! É só deixar um e-mail...",
-      "imagem": "",
+      "texto": "Deixe aqui um e-mail...",
+      "imagem": "images/imagem-email1.jpg",
       "imputs": [
         "nome", "email", "mensagem", "enviar"
       ],
@@ -49,17 +52,16 @@
     },
     "Footer": {
       "link1": "https://www.digitalhouse.com/br/acoes/certified-tech-developer",
-      "link2": "https://www.digitalhouse.com/br/acoes/certified-tech-developer",
-      "link3": "https://www.digitalhouse.com/br/acoes/certified-tech-developer",
+      "link2": "https://www.globant.com/pt-br/about",
+      "link3": "https://www.mercadolivre.com.br/institucional/nos-comunicamos/noticia/tudo-sobre-o-mercado-livre/",
       "empresa1": "Digital House",
       "empresa2": "Mercado Livre",
       "empresa3": "Globant",
       "perfil1": "https://www.linkedin.com/in/jardel-silva-oliveira-b9a330213/",
       "perfil2": "https://github.com/jardel978",
-      "email": "jardeloliver197@gmail.com",
-      "icon1": "",
-      "icon2": "",
-      "icon3": ""
+      "icon1": "icons/linkedin.png",
+      "icon2": "icons/github.png",
+      "icon3": "icons/email.png"
     }
   }
   

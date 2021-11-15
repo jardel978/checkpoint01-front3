@@ -24,7 +24,6 @@ export const Projeto = ({ projeto, chave }) => {
                 {/* <p>{projeto.descricao}</p> */}
                 <h2>{projeto.titulo}</h2>
 
-                {/* <div className="example-warper"> */}
                 <Popup
                     trigger={
                         <button type="button" className="button">
@@ -35,18 +34,20 @@ export const Projeto = ({ projeto, chave }) => {
                     on={['hover', 'focus']}
                     arrow={position !== 'center center'}
                 >
-                    {/* <Card title={position} /> */}
                     <div className="links">
-                        <a href={projeto.projeto} target="_blank">Link Git</a>
+                        <a href={projeto.projeto} target="_blank">Acessar Repositório</a>
                         <br />
-                        <a href={projeto.hospedagem} target="_blank">Link Vercel</a>
+                        <a href={projeto.hospedagem} target="_blank">Acessar o Site</a>
                     </div>
                 </Popup>
 
-                {/* </div> */}
             </article>
             <div className={`projeto-${visibilidade ? "visivel" : "none"}`}>
-                <h2>Deus é fiel!</h2>
+                <img src={projeto.imagem2} alt={projeto.titulo} />
+                <div className="projeto-conteudo">
+                    <p>{projeto.descricao}</p>
+                    {/* <iframe src="https://jardel978.github.io/check-point01Fron02/" scrolling="no" frameborder="no"></iframe> */}
+                </div>
             </div>
         </>
     )

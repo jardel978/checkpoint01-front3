@@ -24,7 +24,7 @@ export const Header = ({data}) => {
                                data && ( data.itens.map((item, key) => {
                                     return (
                                         <li key={key} className="nav-item px-2">
-                                            <a className="nav-link" href={(item.replace(" ", "-")).toLowerCase()}>{item}</a>
+                                            <a className="nav-link" href={"#" + (item.replace(" ", "-")).toLowerCase()}>{item}</a>
                                         </li>
                                     )
                             }))

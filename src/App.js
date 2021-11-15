@@ -39,11 +39,11 @@ function App() {
         </Parallax>
 
         <section id="projetos">
+          <h2>Confira alguns dos Projetos que tenho</h2>
           {
             portifolioData.Projetos && (portifolioData.Projetos.map((item, key) => {
               return (
-                <Projeto projeto={item} chave={key}
-                />
+                <Projeto projeto={item} chave={key} />
               )
             }))
           }
@@ -51,10 +51,10 @@ function App() {
 
         {/* <Projetos data={ portifolioData.Projetos } /> */}
 
-        <Parallax bgImage={portifolioData.Parallax1}>
+        <Parallax>
           <div style={{ height: 400 }}>
             <div>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus le</p>
+              <Contato data={portifolioData.Contato} />
             </div>
           </div>
         </Parallax>
