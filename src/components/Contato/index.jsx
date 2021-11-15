@@ -17,8 +17,6 @@ export const Contato = ({data}) => {
             placeh2 = listaPlaceholder[1],
               placeh3 = listaPlaceholder[2];
 
-            //   console.log(campo1)
-
     return (
         <div id="contato">
             <h2>{data && (data.texto)}</h2>

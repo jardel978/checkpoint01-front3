@@ -5,7 +5,7 @@ import React from 'react'
 export const Header = ({data}) => {
     return (
         <header>
-            <nav className="navbar navbar-expand-lg navbar-light bg-light">
+            <nav className="navbar navbar-expand-lg nav-color">
                 <div className="container-fluid">
                     <div className="navbar-toggler">
                         <img src={data && (data.logo)} alt="logo" />

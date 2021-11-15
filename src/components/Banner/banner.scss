@@ -1,24 +1,21 @@
 
 #sobre-mim {
-    width: 100vw;
+    width: 100%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin-bottom: 100px;
-    border: 2px solid red;
     padding: 17px;
     
     article {
 
         background-color: rgba(14, 13, 13, 0.644);
-        border: 2px solid red;
-        width: 400px;
+
         display: flex;
         justify-content: center;
-        padding: 7px;
+        flex-direction: column;
 
         p {
-            align-self: center;
+            // align-self: center;
         }
 
         img {
@@ -27,3 +24,20 @@
         }
     }
 }
+
+.sobre-mim-img {
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.descricao {
+    max-width: 600px;
+    padding: 17px;
+    
+}
+
+// @media screen and (min-width: 320px) and (max-width: 768px) { 
+
+// }
