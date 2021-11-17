@@ -1,13 +1,15 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import Lottie from 'react-lottie';
 import animationData from '../../data/75705-welcome-animation (1).json';
 // import './animation.scss';
 
 export const HelloAnimation = () => {
 
-    const [animationState, setanimationState] = useState({
-        isStopped: false, isPaused: false
-    })
+    const [animationState, setanimationState] = useState({ })
+
+    useEffect(() => {
+        setanimationState({isStopped: false, isPaused: false})
+    }, [])
 
     const defaultOptions = {
         loop: true,

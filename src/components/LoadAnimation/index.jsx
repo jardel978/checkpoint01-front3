@@ -1,13 +1,15 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import Lottie from 'react-lottie';
 import animationData from '../../data/lf30_editor_b12qm2yk.json';
 import './animationLoad.scss';
 
 export const LoadAnimation = () => {
 
-    const [animationState, setanimationState] = useState({
-        isStopped: false, isPaused: false
-    })
+    const [animationState, setanimationState] = useState({ })
+
+    useEffect(() => {
+        setanimationState({isStopped: false, isPaused: false})
+    }, [])
 
     const [loading, setloading] = useState(true);
 
