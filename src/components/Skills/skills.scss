@@ -38,6 +38,11 @@
     }
 }
 
+.parag-skills {
+    transform: translateY(35px);
+    font-size: larger;
+}
+
 .box1 {
     animation: flutuar 4s ease-in-out alternate-reverse infinite;
 }
@@ -76,6 +81,6 @@
 	}
 	50%{
 		box-shadow:0 25px 15px 0 rgba(0,0,0,.2);
-		transform:translateY(15px);
+		transform:translateY(5px);
 	}
 }

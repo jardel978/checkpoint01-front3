@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import Lottie from 'react-lottie';
-import animationData from '../../data/75705-welcome-animation (1).json';
+import animationData from '../../data/lf20_ZQhQzO.json';
 // import './animation.scss';
 
 export const HelloAnimation = () => {

@@ -7,7 +7,7 @@ export const Skills = () => {
     return (
         <div className="skills">
 
-            <h3>Skills</h3>
+            <h3 className="parag-skills">Skills</h3>
 
             <div className="icons">
                 <div class="box box1"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" alt="icon mysql" /></div>
