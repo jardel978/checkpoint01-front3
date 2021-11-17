@@ -1,25 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;700&family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Syncopate&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    font-family: 'Rajdhani', sans-serif;
+
+    a{
+        text-decoration: none;
+        font-family: 'Syncopate', 'Rajdhani', sans-serif;
+    }
 }
 
-/* personalizar a barra em geral, aqui estou definindo 10px de largura para a barra vertical
-e 10px de altura para a barra horizontal */
 ::-webkit-scrollbar {
     width: 15px;
     height: 15px;
     }
      
-    /* aqui é para personalizar o fundo da barra, neste caso estou colocando um fundo cinza escuro*/
     ::-webkit-scrollbar-track {
         background:#333;
         border-radius: 30px;
     }
      
-    /* aqui é a alça da barra, que demonstra a altura que você está na página
-    estou colocando uma cor azul clara nela*/
     ::-webkit-scrollbar-thumb {
         background: linear-gradient(122deg, #02609b 34%,#56b9f7 77%);
         border: 2.7px outset #04456d;
@@ -52,16 +55,34 @@ main {
     color: white;
 }
 
-.paralax-1 {
+.paralax {
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: 100%;
-    background-color: #050607;
+    font-weight: lighter;
+    font-size: 27px;
+    background-color: #02182e77;
+}
+
+.paralax-1 {
+    p {
+        border-radius: 4px;
+        width: 100%;
+        text-align: center;
+        padding: 20px;
+        background-color: #02609b;
+    }
+
+}
+
+.paralax-2 {
+    background-color: #02182ef1;
 
 
     p {
-        transform: translate(10%);
+        text-align: center;
+        padding: 27px;
     }
 }
 
@@ -94,5 +115,4 @@ main {
             transform: translate(0);
         }
     }
-    
 }

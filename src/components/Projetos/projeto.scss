@@ -5,16 +5,15 @@
     flex-direction: column;
     width: 350px;
     height: 270px;
-    
     margin-left: 20px;
     margin-bottom: 80px;
-    border-radius: 5px 50px 5px;
+    border-radius: 27px;
     padding: 7px;
     background-color: rgba(5, 22, 78, 0.377);
-
     background-position: 'center';
     background-size: 'cover';
     background-repeat: 'no-repeat';
+
 
     &:hover {
         transform: scale(0.95);
@@ -49,9 +48,17 @@
     }
 }
 
+.link-projeto {
+    font-size: 13px;
+    color: #0b395a;
+    font-weight: 600;
+    text-decoration: none;
+}
 
-.button {
+.btn-projeto {
     padding: 15px;
+    background-color: #0b395a;
+    font-family: 'Rajdhani', sans-serif;
 }
 
 .projeto-visivel {
@@ -69,6 +76,7 @@
         background-color: rgba(0, 0, 0, 0.637);
         padding: 12px;
         border-radius: 10px;
+        font-family: 'Rajdhani', sans-serif;
     }
 
 }
@@ -83,11 +91,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
-    p {
-
-    }
 }
+
 
 @media only screen and (max-width: 768px) {
 

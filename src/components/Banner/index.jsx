@@ -11,7 +11,7 @@ export const Banner = ({ data }) => {
                     </div>
                 </article>
                 <article className="descricao">
-                    <p>{ data && ( data.titulo )}</p>
+                    <p className="parag-1">{ data && ( data.titulo )}</p>
                     <p>{ data && ( data.previa )}</p>
                     <p>{ data && ( data.descricao1 )}</p>
                     <p>{ data && ( data.descricao2 )}</p>

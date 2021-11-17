@@ -6,7 +6,7 @@
             "Projetos",
             "Contato"
         ],
-        "logo": ""
+        "logo": "images/logo1.png"
     },
     "Parallax1": "images/programming evolution.jpg",
     "Video": "video/Technology Background Video Loop For Website(1080P_HD).mp4",
@@ -15,7 +15,7 @@
       "previa": "Fé em Deus: meu pilar; Família: minha riqueza; Natureza: minha válvula de escape; Viajar: meu Hobbie preferido; Tecnologia: minha paixão.",
       "descricao1": "Sou Brasileiro, natural de interior de Minas Gerais e como todo bom mineiro, amo pão de queijo e se ranquear as palavras que mais falei até hoje ao longo dos meus 24 anos de vida, com certeza 'Uai', 'Trem' e 'Sô' serão o TOP 3.",
       "descricao2": "Sempre fui fascinado pela tecnologia, de maneira que sempre fui considerado o nerd da turma e saiba que eu amo e me orgulho disso! Ainda no Ensino Médio comecei a estudar Python por conta própria na internet, entretanto tive que interromper esses estudos. Ao terminar o colegial, me tornei bolsista do curso de Administração na Universidade de Uberaba – estando hoje na reta final para a conclusão – e fui trabalhar como atendente em uma loja de assistência técnica de smartphones. Porém, o fascínio pela tecnologia nunca me deixou, foi aí que, após ter uma matéria de empreendedorismo na faculdade e observando no serviço o número elevado de usuários da internet decidi retomar meus estudos na Programação. Nesse período reiniciei aprendendo autodidaticamente Dart e Flutter pelo YouTube. Em sequência surgiu a oportunidade de me candidatar a uma das bolsas do Certified Tech Developer – CTD oferecido pela Digital House e aqui podemos ver hoje onde toda essa trajetória me trouxe: esse site e os projetos aqui mostrados são resultados da dedicação, da determinação e do encanto por essa área supreendentemente incrível que é a de Desenvolvimento de Software.",
-      "foto": "images/IMG_20210613_130058_934.jpg"
+      "foto": "images/foto-recorte.jpg"
     },
     "Projetos": [
       {

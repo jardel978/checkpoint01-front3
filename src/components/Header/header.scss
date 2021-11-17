@@ -3,8 +3,18 @@ header {
     width: 100%;
     position: fixed;
     z-index: 999;
+    
+    img {
+        width: 180px;
+    }
 }
 
 .nav-color {
-    background-color: black;
+    background: rgb(5,10,55);
+    background: linear-gradient(0deg, rgba(5,10,55,1) 0%, rgba(3,6,31,1) 42%, rgba(6,2,19,1) 100%);
+    
+    a {
+        font-size: 20px;
+        color: rgb(214, 227, 228);
+    }
 }

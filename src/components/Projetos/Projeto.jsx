@@ -21,12 +21,11 @@ export const Projeto = ({ projeto, chave }) => {
                 onMouseEnter={projetoToggle}
                 onMouseLeave={projetoToggle}
             >
-                {/* <p>{projeto.descricao}</p> */}
                 <h2>{projeto.titulo}</h2>
 
                 <Popup
                     trigger={
-                        <button type="button" className="button">
+                        <button type="button" className="button btn-projeto">
                             Saiba Mais
                         </button>
                     }
@@ -35,9 +34,9 @@ export const Projeto = ({ projeto, chave }) => {
                     arrow={position !== 'center center'}
                 >
                     <div className="links">
-                        <a href={projeto.projeto} target="_blank">Acessar Repositório</a>
+                        <a className="link-projeto" href={projeto.hospedagem} target="_blank" rel="noreferrer">Acessar o Site</a>
                         <br />
-                        <a href={projeto.hospedagem} target="_blank">Acessar o Site</a>
+                        <a className="link-projeto" href={projeto.projeto} target="_blank" rel="noreferrer">Acessar Repositório</a>
                     </div>
                 </Popup>
 
@@ -46,7 +45,6 @@ export const Projeto = ({ projeto, chave }) => {
                 <img src={projeto.imagem2} alt={projeto.titulo} />
                 <div className="projeto-conteudo">
                     <p>{projeto.descricao}</p>
-                    {/* <iframe src="https://jardel978.github.io/check-point01Fron02/" scrolling="no" frameborder="no"></iframe> */}
                 </div>
             </div>
         </>
